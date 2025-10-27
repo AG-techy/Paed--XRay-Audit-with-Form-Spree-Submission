@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 - Page Not Found</title>
+    <style>
+        :root { --accent:#0b74de; --muted:#f5f7fb; --text:#1a1a1a; --border:#e6e9ef; }
+        * { box-sizing: border-box; }
+        body { 
+            font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+            margin:0; 
+            color:var(--text); 
+            background:var(--muted); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 500px; 
+            margin: 0 auto; 
+            padding: 40px; 
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1 { 
+            font-size: 60px; 
+            margin: 0 0 10px; 
+            color: var(--accent);
+        }
+        h2 { 
+            font-size: 24px; 
+            margin: 0 0 15px;
+        }
+        p { 
+            color:#5b6577; 
+            margin-bottom: 20px;
+        }
+        .button { 
+            display: inline-block;
+            appearance: none; 
+            border: none; 
+            background: var(--accent); 
+            color: #fff; 
+            padding: 12px 24px; 
+            border-radius: 12px; 
+            cursor: pointer; 
+            font-weight: 700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404 🛑</h1>
+        <h2>Page Not Found</h2>
+        <p>The link you tried to follow is incorrect. This often happens if you use a direct file path instead of the main page.</p>
+        <p>Click below to go to the main X-ray Audit page:</p>
+        <a href="https://ag-techy.github.io/paed-xray-audit/" class="button">
+            Go to Paediatric X-ray Audit Form
+        </a>
+    </div>
+</body>
+</html>
